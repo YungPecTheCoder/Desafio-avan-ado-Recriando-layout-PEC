@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background: #2C2B3D;
+    min-height: 100vh;
+}
+
+.page {
+    padding: 70px 90px 25px 100px;
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+#LogoRocket {
+    width: 168px;
+    height: 23px;
+}
+
+nav ul {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #cfcfcf;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#notebook {
+    margin-right: 77px;
+}
+
+
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    
+}
+
+
+#divtext {
+    display: flex;
+    text-align: center;
+    width: 604px;
+    height: 40px;
+    
+
+}
+
+h1 span, .p2 span {
+    color: #00BFA6;
+}
+
+
+
+.boxtext {
+    width: 604px;
+    margin-top: 60px;
+
+}
+
+.p1, .p2 {
+    color: #C2C2C2;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    height: 80px;
+    
+}
+
+
+
+
+
+.boxfooter {
+    border-top: solid 1px;
+    background: #00BFA6;
+    width: 570px;
+    height: 1px;
+    margin: auto;
+    text-align: center;
+    margin-top: 276px;
+
+}
+
+.boxfooter p {
+    padding: 27px 65px 0px 41px;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.boxfooter p a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.cadeadao {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
